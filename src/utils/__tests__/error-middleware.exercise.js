@@ -1,6 +1,5 @@
 // Testing Middleware
 
-// 🐨 you'll need both of these:
 import {UnauthorizedError} from 'express-jwt'
 import {buildRes, buildReq, buildNext} from 'utils/generate'
 import errorMiddleware from '../error-middleware'
